@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netstatus.NetLinearWrapContainer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:haveActionBar="false">
+    <!--app:haveActionBar="true"-->
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="突突突~突突~"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:text="post" />
+
+</com.netstatus.NetLinearWrapContainer>
